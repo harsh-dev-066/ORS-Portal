@@ -1,0 +1,46 @@
+  .facility-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .required {
+    color: red
+  }
+
+  .dropdown {
+    width: 50%;
+    height: 55px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #c8c8c8;
+    position: relative;
+  }
+  
+  .dropdown-label {
+    padding: 1em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .default {
+    color: #c8c8c8
+  }
+  
+  .dropdown-body {
+    padding: 5px;
+    border-top: 1px solid #E5E8EC;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 5px #c8c8c8;
+    width: 100%;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+  }
+  
+  .dropdown-item:hover {
+    cursor: pointer;
+  }
+  
